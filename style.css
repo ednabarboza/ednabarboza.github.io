@@ -1,9 +1,16 @@
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+
 #descricao {
     font-family: monospace, sans-serif;
+    padding: 20px 20px 0px 20px;
+    height: 200px;
+    text-align: left;
+         
 }
+
 body {
     background-color: #ffe8d6;
 }
@@ -25,4 +32,36 @@ body {
 }
 .pda{
     font-size: 12px;
+}
+
+div {
+   
+
+}
+
+#minha-foto{
+    float: left;
+    padding: 10px;
+    background-color: indigo;
+    width: 150px;
+    left: 150px;
+    margin: 10px 30px;
+    
+    
+}
+
+div, h1 {
+    text-align: center;
+}
+
+ul:nth-of-type(2) li:nth-of-type(1){
+    background-color: blueviolet;
+}
+
+ul:nth-of-type(2) li:nth-of-type(3){
+    background-color: blueviolet;
+}
+
+ul:nth-of-type(2) li:nth-of-type(5){
+    background-color: blueviolet;
 }
